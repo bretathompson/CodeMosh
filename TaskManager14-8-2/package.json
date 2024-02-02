@@ -1,0 +1,20 @@
+{
+  "name": "taskmanager",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000T\u0000a\u0000s\u0000k\u0000M\u0000a\u0000n\u0000a\u0000g\u0000e\u0000r\u0000\r\u0000 \u0000#\u0000 \u0000T\u0000a\u0000s\u0000k\u0000M\u0000a\u0000n\u0000a\u0000g\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "config": "^3.3.10",
+    "express": "^4.18.2",
+    "joi": "^17.12.0",
+    "mongoose": "^8.1.1",
+    "node": "^21.6.1"
+  }
+}

@@ -1,0 +1,35 @@
+console.log();
+
+setTimeout();
+setInterval();
+clearInterval();
+
+window.console.log();  or  global.console.log();
+
+<!-- modules: -->
+
+
+<!-- appendFile  -->
+fs.appendFile(path, data, callback function)
+<!-- Node file system module -->
+const fs = require('fs');
+<!-- data string -->
+let data = "Hello World!";
+<!-- appendFile named helloword.txt -->
+fs.appendFile('helloworld.txt', data);
+<!-- callback with error parameter -->
+fs.appendFile('helloworld.txt', data, (err) => { });
+
+<!-- code in full -->
+fs.appendFile('helloworld.txt', data, (err) => {
+    if (err) {
+       throw err;
+    } else {
+       console.log('Data is written');
+    }
+ });
+
+
+
+
+ 
